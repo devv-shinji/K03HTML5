@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>H08Table-테이블</title>
+	</head>
+	<body>
+		<h2>table 태그</h2>
+		
+		<h3>table 태그의 속성을 이용한 테이블 디자인</h3>
+		<!-- table>tr*2>td*3 -->
+		<table border="5" cellpadding="5" cellspacing="5" bgcolor="Azure" width=200>
+			<tr>
+				<td>가</td>
+				<td>나</td>
+				<td>다</td>
+			</tr>
+			<tr>
+				<td>라</td>
+				<td>마</td>
+				<td><img src="./images/apple.png" alt="사과" /></td>
+			</tr>
+		</table>
+		
+		<h3>CSS속성을 이용한 테이블 디자인</h3>
+		<!-- table>tr*3>td*3 -->
+		<table style="border-spacing:10px; background-color:orange;">
+			<tr>
+				<td style="padding:5px; border:1px solid black;">가</td>
+				<td style="padding:5px; border:1px solid blue;">나</td>
+				<td style="padding:5px; border:1px solid red;">다</td>
+			</tr>
+			<tr>
+				<td style="padding:5px; border:1px solid green;">라</td>
+				<td style="padding:15px; border:1px solid purple;">마</td>
+				<td style="padding:5px; border:1px solid skyblue;">
+					<img src="./images/banana.png" alt="바나나" />
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
